@@ -12,14 +12,13 @@ html {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #020617;
   color: #e5e7eb;
 }
 
 .main {
-  padding: 5rem 6vw 4rem;
+  padding: 5rem 0 4rem;
 }
 
 .section {
@@ -27,10 +26,16 @@ body {
   border-bottom: 1px solid rgba(148, 163, 184, 0.25);
 }
 
+.section-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
 
 
-/* navbar */
+
+/* NAVBAR */
 .navbar {
   position: sticky;
   top: 0;
@@ -123,12 +128,7 @@ body {
 
 
 
-/*about*/
-.about-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
+/* ABOUT */
 
 .about-container h2 {
   font-size: 2rem;
@@ -146,3 +146,58 @@ body {
 }
 
 
+
+
+/* EDUCATION */
+
+.education-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.education-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 260px;
+}
+
+.education-logo-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(148, 163, 184, 0.5);
+}
+
+.education-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.education-name {
+  margin-top: 0.75rem;
+  font-weight: 500;
+}
+
+.education-description {
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .education-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

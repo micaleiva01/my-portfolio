@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import Navbar from './components/Navbar';
 import './App.css'
 import About from './components/About';
+import Education from './components/Education';
 
 
 function App() {
@@ -14,10 +14,7 @@ function App() {
       <main className="main">
         <About />
 
-        <section id="education" className='section'>
-          <h2>Education</h2>
-          <p>placeholder text</p>
-        </section>
+        <Education />
         
         <section id="skills" className='section'>
           <h2>Skills</h2>
