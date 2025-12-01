@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import './App.css'
 import About from './components/About';
 import Education from './components/Education';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -16,10 +17,7 @@ function App() {
 
         <Education />
         
-        <section id="skills" className='section'>
-          <h2>Skills</h2>
-          <p>placeholder text</p>
-        </section>
+        <Skills />
         
         <section id="projects" className='section'>
           <h2>Projects</h2>
