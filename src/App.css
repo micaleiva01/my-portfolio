@@ -248,3 +248,46 @@ body {
   color: #d1d5db;
   margin-bottom: 0.3rem;
 }
+
+
+
+
+
+/*PROJECTS*/
+
+.projects-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+.project-card {
+  padding: 1.3rem 1.4rem;
+  border-radius: 1rem;
+  background: #0f172a;
+  border: 1px solid rgba(148, 163, 184, 0.45);
+}
+
+.project-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.project-tech {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.project-description {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #d1d5db;
+  line-height: 1.5;
+}

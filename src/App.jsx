@@ -3,6 +3,7 @@ import './App.css'
 import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -19,10 +20,7 @@ function App() {
         
         <Skills />
         
-        <section id="projects" className='section'>
-          <h2>Projects</h2>
-          <p>placeholder text</p>
-        </section>
+        <Projects />
         
         <section id="contact" className='section'>
           <h2>Contact</h2>
